@@ -11,4 +11,3 @@ def options(question, optionList):
     answer = input(question + ' (' + options + '): ')
     if not answer in optionList:
       print('We are sorry, but that is not option. Try again and make sure capitalization and spelling is correct')
-      clear = False
